@@ -1,0 +1,28 @@
+.nav{
+	height: 80px;
+	background-color: #000;
+	color: #FFF;
+	line-height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-inline: 10px;
+	.navigationList{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		li{
+			list-style: none;
+			margin-inline: 10px;
+			color: #FFF;
+			&.active{
+				font-weight: bold;
+				color: yellow;
+			}
+			a{
+				text-decoration: none;
+				color: currentColor;
+			}
+		}
+	}
+}
